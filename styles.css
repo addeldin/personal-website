@@ -1,7 +1,14 @@
 body {
-    color: #000000;
+    color: #141414;
     background-color: #ffffff;
     font-size: 18px;
+    text-align: center;
+
+  }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Arial", sans-serif;
+    font-weight: normal;
   }
 
 h1 {
@@ -12,6 +19,7 @@ h2 {
     font-size: 1.6em;
   }
 
-  h1, h2, h3, h4, h5, h6 {
-    font-family: "Helvetica", "Arial", sans-serif;
+p {
+    font-family: "Verdana", "Arial", sans-serif;
+    font-weight: normal;
   }
