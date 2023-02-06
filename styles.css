@@ -1,8 +1,8 @@
 body {
     color: #141414;
     background-color: #ffffff;
-    width: 800px;
-    font-size: 18px;
+    width: 600px;
+    font-size: 16px;
     text-align: center;
     margin: auto;
   }
@@ -34,11 +34,6 @@ a:hover {
   text-decoration: underline;
 }
 
-.menu a:link,
-  a:visited {
-    color: darkslategray;
-  }
-
 header {
   height: 200px;
   align-items: center;
@@ -52,6 +47,11 @@ header p {
   font-size: .8em;
 }
 
+.menu a:link,
+  a:visited {
+    color: darkslategray;
+  }
+
 .menu > li {
   display: inline;
   list-style: none;
@@ -59,4 +59,20 @@ header p {
 
 .banner {
   margin-bottom: 0.5em;
+}
+
+.project {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.project-text {
+  margin-left: 20px;
+}
+
+.project-links {
+  display: inline;
+  text-align: center;
+  font-size: .8em;
 }
