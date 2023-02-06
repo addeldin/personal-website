@@ -1,9 +1,10 @@
 body {
     color: #141414;
     background-color: #ffffff;
+    width: 800px;
     font-size: 18px;
     text-align: center;
-
+    margin: auto;
   }
 
 h1, h2, h3, h4, h5, h6 {
@@ -22,7 +23,7 @@ h2 {
 p {
     font-family: "Verdana", "Arial", sans-serif;
     font-weight: normal;
-    text-align:justify
+    text-align: justify;
   }
 
 a:link, a:visited {
@@ -38,6 +39,19 @@ a:hover {
     color: darkslategray;
   }
 
+header {
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
 header p {
   text-align: center;
+  font-size: .8em;
+}
+
+.banner {
+  margin-bottom: 0.5em;
 }
