@@ -52,6 +52,11 @@ header p {
   font-size: .8em;
 }
 
+.menu > li {
+  display: inline;
+  list-style: none;
+}
+
 .banner {
   margin-bottom: 0.5em;
 }
