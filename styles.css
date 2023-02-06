@@ -22,4 +22,22 @@ h2 {
 p {
     font-family: "Verdana", "Arial", sans-serif;
     font-weight: normal;
+    text-align:justify
   }
+
+a:link, a:visited {
+  text-decoration:none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.menu a:link,
+  a:visited {
+    color: darkslategray;
+  }
+
+header p {
+  text-align: center;
+}
